@@ -1,0 +1,186 @@
+body {
+  height: 100%;
+  margin: 0;
+  background: url("../test1_assets/background.png") repeat-y;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+header {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex: auto;
+  flex-shrink: 0;
+  height: 12vmin;
+  max-height: 10vmin;
+  justify-content: space-between;
+  text-align: center;
+}
+
+header .backBtn {
+  background-image: linear-gradient(#272525, black);
+  color: white;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  border: none;
+  margin-left: 10px;
+  box-shadow: 0px 0px 2px 1px #382e2e;
+}
+
+img {
+  height: 100%;
+  width: 15vmin;
+}
+
+.details {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.imageBox img {
+  text-align: center;
+  background-color: white;
+  width: 79%;
+  height: 30%;
+  margin: auto;
+  padding: 4px;
+  box-shadow: 0px 0px 20px 1px black;
+}
+
+.imageBox {
+  margin-top: 5%;
+  margin-bottom: 6%;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .label1 {
+    color: #adc3d8;
+    font-size: 15px;
+    line-height: 2px;
+  }
+  .main_label {
+    color: white;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 2px;
+  }
+  .selectBox {
+    margin-top: 0%;
+  }
+  .textBox {
+    height: 10%;
+  }
+
+  .details {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  .label1 {
+    color: #adc3d8;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 5px;
+  }
+  .main_label {
+    color: white;
+    font-size: 170%;
+    font-weight: 600;
+    line-height: 5px;
+  }
+  .selectBox {
+    margin-top: 5%;
+  }
+  .textBox {
+    height: 15%;
+  }
+
+  .details {
+    font-size: 40px;
+  }
+}
+
+.textBox a {
+  line-height: 0px;
+  font-size: 20px;
+  color: white;
+}
+
+.textBox {
+  border: none;
+  width: 80%;
+  color: white;
+  position: relative;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.selectBox {
+  margin: auto;
+  align: center;
+  margin-top: 5%;
+}
+
+.selectBox button:first-child {
+  border-radius: 5px 5px 0px 0px;
+}
+
+/*to avoid double border*/
+.slectBox button:not(:last-child) {
+  border-bottom: none;
+}
+
+.selectBox button:last-child {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.selectBox button {
+  border: 1px solid white;
+  width: 80%;
+  text-align: left;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px auto;
+  color: #00172e;
+  background-image: linear-gradient(white, #a8c0d2);
+  height: 50px;
+  cursor: pointer;
+  display: block;
+}
+
+.selectBox button:hover {
+  background-image: linear-gradient(#a8c0d2, #a8c0d2);
+}
+
+.selectBox button:focus {
+  outline: none;
+}
+
+.selectBox button .btn-span {
+  font-size: 100%;
+}
+
+.selectBox button > i {
+  float: right;
+}
+
+footer {
+  flex: auto;
+  color: white;
+  text-align: center;
+  margin-top: 2vmin;
+  max-height: 5vmin;
+  text-align: center;
+}
+
+footer .copyRights {
+  color: #adc3d8;
+}

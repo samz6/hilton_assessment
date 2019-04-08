@@ -1,0 +1,32 @@
+{
+    "name": "hilton",
+    "version": "1.0.0",
+    "description": "hilton test",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start",
+      "test": "jest"
+    },
+    "author": "sami",
+    "license": "ISC",
+    "dependencies": {
+      "next": "^8.0.3",
+      "prop-types": "^15.7.2",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.4.0",
+      "babel-core": "^6.26.3",
+      "babel-jest": "^24.5.0",
+      "enzyme": "^3.9.0",
+      "enzyme-adapter-react-16": "^1.11.2",
+      "enzyme-to-json": "^3.3.5",
+      "jest": "^24.5.0",
+      "react-addons-test-utils": "^15.6.2",
+      "react-test-renderer": "^16.8.6"
+    }
+  }
+  
